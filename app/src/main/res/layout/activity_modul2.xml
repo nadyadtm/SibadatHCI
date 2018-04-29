@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.example.android.sibadat.modul2">
+    <RelativeLayout
+        android:id="@+id/navigasi"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#039BE5">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:onClick="brdshrt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:text="Beranda"
+                android:textColor="#FFFFFF"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" >> "
+                android:textColor="#FFFFFF"
+                android:textSize="17dp" />
+
+            <TextView
+                android:onClick="mtrshrt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:textSize="17dp"
+                android:text="Materi"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" >> "
+                android:textColor="#FFFFFF"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Modul 2"
+                android:textColor="#FFFFFF"
+                android:textSize="17dp" />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_below="@id/navigasi"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/navigasi"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center"
+                android:text="Aljabar Relasional"
+                android:textSize="20dp"
+                android:textColor="#424242"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@id/header">
+
+                <com.google.android.youtube.player.YouTubePlayerView
+                    android:id="@+id/video2"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"></com.google.android.youtube.player.YouTubePlayerView>
+
+                <android.support.v7.widget.CardView
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/card_view"
+                    card_view:cardBackgroundColor="#e1f5fe"
+                    android:layout_gravity="center"
+                    android:layout_width="350dp"
+                    android:layout_height="170dp"
+                    android:layout_marginTop="20dp"
+                    android:padding="5dp"
+                    card_view:cardCornerRadius="4dp">
+                    <LinearLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/mateript2"
+                            android:gravity="center"
+                            android:lineSpacingExtra="5sp"
+                            android:layout_width="match_parent"
+                            android:textSize="16sp"
+                            android:textColor="#424242"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical|right"
+                            android:text="Tentang Materi" />
+                        <android.support.v7.widget.CardView
+                            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                            card_view:cardBackgroundColor="#ffffff"
+                            android:layout_gravity="center"
+                            android:layout_width="320dp"
+                            android:layout_height="110dp"
+                            android:layout_marginTop="10dp"
+                            card_view:cardCornerRadius="4dp">
+                            <TextView
+                                android:layout_centerHorizontal="true"
+                                android:lineSpacingExtra="5sp"
+                                android:layout_width="match_parent"
+                                android:textSize="14sp"
+                                android:padding="10dp"
+                                android:textColor="#424242"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical|right"
+                                android:text="Kita akan mempelajari tentang Aljabar Relasional, Materi tersebut akan dipakai dalam bab query processing nanti jadi silakan dipelajari dengan sebaik-baiknya" />
+                        </android.support.v7.widget.CardView>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <Button
+                    android:onClick="mulaiKuis2"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Mulai Kuis"
+                    android:layout_gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:background="#039BE5"
+                    android:layout_marginBottom="30dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

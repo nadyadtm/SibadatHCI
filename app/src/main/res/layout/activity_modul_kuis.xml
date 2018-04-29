@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.sibadat.ModulKuis">
+    <RelativeLayout
+        android:id="@+id/navigasi"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#039BE5">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:text="Beranda"
+                android:onClick="brd"
+                android:textColor="#FFFFFF"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" >> "
+                android:textColor="#FFFFFF"
+                android:textSize="17dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:textSize="17dp"
+                android:text="Kuis"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/navigasi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="30dp"
+        android:text="Pilih Kuis"
+        android:textColor="#424242"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/header">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:text="Modul 1"
+                android:onClick="modul11"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:background="#039BE5"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="15dp"/>
+            <Button
+                android:text="Modul 3"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:background="#039BE5"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="15dp"/>
+            <Button
+                android:text="Modul 5"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:background="#039BE5"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="15dp"/>
+            <Button
+                android:text="Modul 7"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:background="#039BE5"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="15dp"/>
+            <Button
+                android:text="Modul 9"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:background="#039BE5"
+                android:textColor="#FFFFFF"
+                android:layout_marginRight="15dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <Button
+                android:onClick="modul22"
+                android:text="Modul 2"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:background="#039BE5"
+                android:layout_marginLeft="15dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"/>
+            <Button
+                android:text="Modul 4"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:background="#039BE5"
+                android:layout_marginLeft="15dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"/>
+            <Button
+                android:text="Modul 6"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:background="#039BE5"
+                android:layout_marginLeft="15dp"
+                android:textColor="#FFFFFF"
+                android:layout_marginBottom="10dp"/>
+            <Button
+                android:text="Modul 8"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:background="#039BE5"
+                android:textColor="#FFFFFF"
+                android:layout_marginLeft="15dp"
+                android:layout_marginBottom="10dp"/>
+            <Button
+                android:text="Modul 10"
+                android:layout_width="100dp"
+                android:layout_height="60dp"
+                android:textColor="#FFFFFF"
+                android:background="#039BE5"
+                android:layout_marginLeft="15dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

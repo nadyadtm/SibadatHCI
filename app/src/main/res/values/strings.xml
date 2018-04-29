@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Sibadat</string>
+    <string name="PengantarBasisData1">
+        Sistem basis data adalah Perangkat lunak yang digunakan untuk mengelola dan memanggil kueri (query) basis data disebut sistem manajemen basis data (database management system, DBMS).\n
+        \nTujuan sistem basis data :\n
+-	Mengurangi redudansi data dan inkonsistensi\n
+-	Memudahkan dalam mengakses data\n
+-	Isolasi data\n
+-	Integritas data\n
+-	Mengupdate data secara atomic\n
+-	Mengurangi ke konkurensian data ketika diakses banyak user\n
+-   Keamanan data\n
+    </string>
+    <string name="Soalno1">
+        Terdapat tabel dengan atribut seperti berikut (atribut yang digaris bawahi merupakan primary key):\n
+\t•	employee (<u>person_name</u>, street, city )\n
+\t•	works (<u>person_name</u>, company_name, gaji)\n
+\t•	company (<u>company_name</u>, city)\n
+\t•	manages (<u>person_name</u>, manage_ name)\nterdapat aljabar relasional seperti berikut, merepresentasikan query….
+    </string>
+    <string name="iseng">
+        Gunakan tabel yang sama dengan nomor 1\n
+        Mana aljabar relasi yang tepat untuk menampilkan semua karyawan yang tinggal di kota yang sama dengan tempat dimana mereka bekerja adalah….
+    </string>
+    <string name="Soalno3">
+        Terdapat tabel dengan atribut seperti berikut (atribut yang digaris bawahi merupakan primary key):\n
+\t•	employee (person_name, street, city )\n
+\t•	works (person_name, company_name, gaji)\n
+\t•	company (company_name, city)\n
+\t•	manages (person_name, manage_ name)\n
+terdapat aljabar relasional seperti berikut, merepresentasikan query….
+    </string>
+    <string name="Soalno4">
+        Gunakan tabel yang sama dengan nomor \n
+        Mana aljabar relasi yang tepat untuk menampilkan semua nama karyawan yang tidak tinggal di California adalah….
+    </string>
+    <string name="Soalno5">
+Gunakan tabel yang sama dengan nomor 3\n
+Mana aljabar relasi yang tepat untuk menampilkan karyawan yang tidak bekerja di “First Bank Corporation” adalah….
+
+    </string>
+    <string name="jawaban">
+        <font color="##FF0000">X</font>
+    </string>
+    <string name="QP1">
+        1.	Parsing dan Translation\n
+Parsing adalah analisis sintaksis, yaitu memeriksa apakah input yang masuk sesuai dengan tata bahasa yang ada atau tidak, salah satunya dengan memilah-milah input-input.
+ \nTranslation adalah mengubah kode dari sintaks deklaratif ke dalam bentuk internal yang procedural (misal aljabar relasional).
+\n\n2.	Optimization\n
+Setiap ekspresi aljabar relasional akan didetailkan yaitu detail plan setiap eksekusi. Untuk tiap operator terdapat beberapa opsi algoritma, dan algoritma yang dipilih adalah algoritma yang meminimalkan cost. Itulah yang terjadi pada execution plan.
+\n\n3.	Execution\n
+Mengeksekusi execution plan hasil optimalisasi dan mengembalikan outputnya sesuai dengan query.
+
+    </string>
+
+    <string name="materi1">
+        a )\tShared – memory: semua processor dan disk mempunyai akses ke memori yang sama, melalui bus atau interconnection network.
+        \nb )\tShared – disk: semua processor bisa langsung mengakses semua disk melalui interconnection network, tetapi processor sendiri mempunyai ‘private’ memori.
+        \nc )\tShared – nothing: masing – masing processor mempunyai disk dan memori, dan terhubung dengan processor lainnya melalui interconnection network.         Hierarchical: gabungan dari shared – memory, shared – disk, dan shared – nothing. Level paling atas berupa shared – nothing, dan level selanjutnya bisa gabungan dari shared – memory dan shared – disk, atau hanya salah satu, tergantung kebutuhan.
+    </string>
+
+    <string name="materi2">
+        	Pada arsitektur basis data ini, data disebar ke beberapa mesin/site/node. Terdapat 2 jenis distributed system:
+\n•	Homogeneous distributed databases\n
+Mempunyai software/schema yang sama pada setiap site, data dipartisi setiap site.
+\n•	Heterogeneous distributed databases\n
+Mempunyai software/schema yang berbeda pada setiap site, data dipartisi setiap site.
+
+    </string>
+</resources>

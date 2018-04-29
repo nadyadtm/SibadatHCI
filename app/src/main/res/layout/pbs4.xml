@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="PEMBAHASAN"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:background="#039BE5"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="5dp"
+        android:textColor="#424242"
+        android:padding="20dp"
+        android:text="Centralized System merupakan sebuah sistem dimana database terpusat di satu tempat"/>
+</LinearLayout>
