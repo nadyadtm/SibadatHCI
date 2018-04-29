@@ -11,3 +11,10 @@ Sibadat is the E-learning android application for Database System Course. This i
 
 ## Lesson Page
 <img src="https://user-images.githubusercontent.com/15353477/39404093-0d47bec4-4bb6-11e8-88dd-41b3285057a7.png" width="350">
+
+
+## Team
+- Fadila Zain
+- Putra Cahya Purnama
+- Nadya Aditama
+- Windias Friliani
