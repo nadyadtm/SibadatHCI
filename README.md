@@ -1,7 +1,7 @@
 # SibadatHCI
 HCI Project 2017, Interaction front end of E-learning for database system course
 
-Sibadat is the E-learning android application for Database System Course. This is only interaciton front end. I'm only use firebase database from user authentification
+Sibadat is the E-learning android application for Database System Course. This is only interaciton front end. I'm only use firebase database for user authentification
 
 ## Login Page
 <img src="https://user-images.githubusercontent.com/15353477/39404041-70454c6e-4bb4-11e8-84a7-d40c44260c35.png" width="300">
